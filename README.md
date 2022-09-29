@@ -1,4 +1,4 @@
-# SimplestApiRpc
+# sJsonRpc
 Some classes to do JsonRPC in Python
 
 Class Client:

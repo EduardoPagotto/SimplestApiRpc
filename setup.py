@@ -7,22 +7,22 @@ Update on 20220926
 
 from setuptools import setup, find_packages
 
-from SimplestRpcApi.__init__ import __version__ as VERSION
+from sJsonRpc.__init__ import __version__ as VERSION
 
-PACKAGE = "SimplestRpcApi"
+PACKAGE = "sJsonRpc"
 
 # listar os packages
 #python -c "from setuptools import setup, find_packages; print(find_packages())"
 
 setup(
-    name="SimplestRpcApi",
+    name="sJsonRpc",
     version=VERSION,
     author="Eduardo Pagotto",
     author_email="edupagotto@gmail.com",
     description="RPC Classes",
     long_description="Classes to build simplest RPC's",#long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/EduardoPagotto/SimplestRpcApi.git",
+    url="https://github.com/EduardoPagotto/sJsonRpc.git",
     packages=find_packages(),
     license="MIT",
     classifiers=[
