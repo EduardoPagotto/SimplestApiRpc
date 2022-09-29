@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.linting.mypyEnabled": true,
+        "python.linting.enabled": true,
+        "editor.minimap.enabled": false
+    },
+    "launch": {}
+}
